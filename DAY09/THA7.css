@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #100f0f;
+    color: white;
+  }
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .movie-screen {
+    width: 581px;
+    height: 15px;
+    background-color:#196cbf;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 20px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .main-area {
+    width: 150vh;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0;
+  }
+  .seat {
+    max-height: 165px;
+    max-width: 165px;
+    border-radius: 2px;
+    background-size:contain;
+    box-sizing: border-box;
+    background-image: url('Assets/empty.jpg');
+  }
+.seat:hover {
+    opacity: 0.5;
+  }
+.booked {
+  background-image: url('Assets/booked.jpg');
+
+  }

@@ -1,0 +1,54 @@
+.column1{
+  float: left;
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+}
+
+.column2{
+  float: left;
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+}
+.row{
+  display: flex;
+  border: 2px solid blue;
+}
+body
+{
+  max-width: 650px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 10px 10px 10px;
+  height: inherit;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+.Content{
+  text-align: left;
+}
+ul{
+  margin: 30;
+  padding: 10px 15px 10px 15px;
+}
+.left-border{
+  border-left: 2px solid blue;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+p{
+  padding-bottom: 0px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+}
+.head{
+  left: 170px;
+  right: 200px;
+  max-width: 300px;
+  padding-bottom: 10px;
+  background-color: white;
+  position:relative;
+  top:25px;
+}
