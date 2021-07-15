@@ -1,0 +1,44 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.App{
+    margin-top: 17%;
+    margin-left: 40%;
+    height: 30vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chessBoard{
+    border: 17px solid black;
+    margin: 0;
+    border-spacing: 1px;
+}
+.whiteBorder{
+    border: 10px white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    border: none;
+    padding: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.row:nth-child(even)  .card:nth-child(even){
+    background-color: black
+  }
+  
+  .row:nth-child(odd)  .card:nth-child(odd){
+    background-color: black
+}
