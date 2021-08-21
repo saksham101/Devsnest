@@ -1,0 +1,8 @@
+.App{
+    display: inline-block;
+    margin: 2px;
+}
+.App button{
+    height: 50px;
+    width: 50px;
+}
