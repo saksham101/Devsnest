@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  h1{
+      display: flex;
+      justify-content: center;
+      margin: 40px;
+      color: red;
+  }
+  .App{
+    height: 450px;
+    width: 600px;
+    overflow-y: scroll;
+    flex: 1;
+    background-color: rgb(5, 68, 5);
+    padding: 20px;
+    display: "flex";
+    margin-left: 450px;
+    margin-top: 80px;
+    box-shadow: 4px 2px 4px 2px grey;
+    border-radius: 5px;
+  }
+  .tle{
+    font-size: 50px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .card{
+    display: inline-block;
+    margin: 3px;
+    padding: 20px;
+    background-color: rgb(95, 197, 27);
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    justify-content: left;
+   
+  }
+  .card .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+  }
+  
+  .card p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .title button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(241, 188, 188);
+  }
