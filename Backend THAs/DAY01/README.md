@@ -1,2 +1,2 @@
 # Output of THA1
-![Output of THA1](THA1.png)
+![Output of THA1](THA1.PNG)
