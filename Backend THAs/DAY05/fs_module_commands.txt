@@ -1,0 +1,12 @@
+var fs = requir("fs");
+fs.mkdirSync("day_05");
+fs.writeFileSync("day_05/hello.txt","Hey there!!",function(err){
+	if(err){
+		console.log(err);		
+	}
+});                   
+fs.appendFileSync("day_05/hello.txt", "appended");
+fs.readFileSync("day_05/hello.txt",""utf-8);
+fs.renameSync("day_05/hello.txt","day_05/haha.txt");
+fs.unlinkSync("day_05/haha.txt");
+fs.rmdirSync("day_05");
