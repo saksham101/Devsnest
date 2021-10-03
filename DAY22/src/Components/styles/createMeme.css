@@ -1,0 +1,15 @@
+.meme-container {
+  text-align: center;
+}
+.meme-container .edit-this-meme {
+  /* height: 450px; */
+  width: 300px;
+  margin-top: 2rem;
+  border: 1px solid #000;
+}
+.meme-container .input-container {
+  margin: 1rem 0;
+}
+.meme-container .btn {
+  padding: 0.1rem 1rem;
+}

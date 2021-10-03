@@ -1,0 +1,15 @@
+.templates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90vw;
+  justify-items: center;
+}
+.meme-img {
+  height: 400px;
+  width: 95%;
+  border: 1px solid black;
+  object-fit: cover;
+  padding: 0 2rem;
+  margin: 0.3rem 0;
+  background-position: center;
+}
