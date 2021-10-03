@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: linear-gradient(lightcoral, violet) fixed;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #693b58;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(177, 11, 66);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
