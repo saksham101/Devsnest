@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(green, yellowgreen);
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
