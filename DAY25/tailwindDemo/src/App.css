@@ -1,0 +1,8 @@
+.App {
+  height: 100vh;
+  /* position: relative; */
+}
+.pagination {
+  position: relative;
+  top: 10%;
+}

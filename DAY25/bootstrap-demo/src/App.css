@@ -1,0 +1,10 @@
+.App {
+  height: 100vh;
+}
+
+.pagination-component {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
