@@ -1,0 +1,26 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 0.4rem;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+  > input {
+    background: rgba(102, 51, 153, 0.699);
+    padding: 2px 5px;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    &:focus {
+      border-bottom: 1px solid rgb(160, 21, 252);
+      box-shadow: 0 1px 2px rgba(255, 255, 255, 0.308);
+    }
+  }
+
+  > button {
+    padding: 2px 15px;
+    border-radius: 5px;
+  }
+}
