@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.App .input-field > input {
+  background: rgba(240, 248, 255, 0.281);
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 100;
+  border-radius: 0.4rem;
+  margin-top: 0.3rem;
+  color: white;
+  padding: 0.1rem 0.2rem;
+  transition: all 100ms ease-in;
+}
+.App .input-field > input:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.411);
+}
+.App .input-field > button {
+  background: purple;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  border: none;
+  padding: 0.1rem 0.4rem;
+  color: white;
+  font-weight: 100;
+  /* padding: 0.1rem 0.3rem; */
+  border-radius: 0.3rem;
+}
+
+.App .not-found {
+  background: whitesmoke;
+  width: fit-content;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  position: relative;
+  margin-top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
