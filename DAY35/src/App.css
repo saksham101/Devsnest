@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fafafa;
+}
+
+/* Nav */
+.navigation {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-around; */
+	/* padding: 0 50px; */
+	background-color: #fafafa;
+	z-index: 2;
+}
+
+.nav-container {
+	max-width: 975px;
+	height: 54px;
+	padding: 0 20px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.logo {
+	min-width: 40px;
+	flex: 1;
+}
+
+.logo > img {
+	height: 30px;
+}
+
+.search-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-container > input {
+	width: 215px;
+	min-width: 125px;
+	background-color: #fafafa;
+	padding: 3px 20px;
+	padding-left: 25px;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.0975);
+	border-radius: 3px;
+	font-size: 14px;
+	outline: none;
+}
+
+.search-container > input::placeholder {
+	text-align: center;
+}
+
+.search-container > .icon {
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 8px;
+}
+
+.navigation-icons {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.nav-icon-container {
+	margin-left: auto;
+}
+
+.nav-icon-container > .icon {
+	font-size: 22px;
+	color: #000;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+/* Story */
+.story-container {
+	max-width: 60%;
+	min-width: 500px;
+	/* margin-top: 70px; */
+	margin: 90px auto 30px auto;
+	border: 1px solid #dbdbdb;
+}
+
+.story-card-container {
+	padding: 20px 10px;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+.story-card-container::-webkit-scrollbar {
+	display: none;
+}
+
+.story-card {
+	height: 55px;
+	width: 55px;
+	display: inline-block;
+	margin: 0 8px;
+	border-radius: 50%;
+	border: 2px solid #c62f91;
+}
+
+/* Posts */
+.posts-container {
+	width: min(80%, 600px);
+	margin: 30px auto;
+}
+
+.post {
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 40px;
+}
+
+.post-header {
+	padding: 7px 1.3rem;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.post-header-img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.post-header-title {
+	font-weight: 500;
+}
+
+.post-main-img {
+	width: 100%;
+}
+
+.post-main-img > img {
+	width: 100%;
+	object-fit: cover;
+}

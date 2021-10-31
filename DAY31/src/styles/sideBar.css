@@ -1,0 +1,53 @@
+.sidebar-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	overflow: hidden;
+	overflow-y: auto;
+	transition: width 0.4s ease-in-out;
+	background-color: aliceblue;
+}
+
+.sidebar-header {
+	padding: 15px 25px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e2dede;
+}
+
+.sidebar-header > header {
+	font-size: 1.3rem;
+}
+
+.cart-card {
+	display: flex;
+	align-items: center;
+	margin: 15px 25px;
+	padding: 10px 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cart-item-header {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.sidebar-product-img {
+	width: 40%;
+}
+
+.sidebar-product-img > img {
+	width: 70%;
+	object-fit: contain;
+}
+
+.control-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cursor-pointer {
+	cursor: pointer !important;
+}

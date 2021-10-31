@@ -1,0 +1,50 @@
+body {
+	// background-color: #1b1f3b;
+	color: white;
+}
+
+.App {
+	text-align: center;
+	background-color: #1b1f3b;
+	height: 100vh;
+	display: block;
+	overflow: auto;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.user-input {
+	margin-top: 50px;
+	font-size: 1.2rem;
+	& > input {
+		font-size: inherit;
+		padding: 0.3rem;
+		margin-right: 30px;
+		border: 2px solid #61dafb;
+		outline: none;
+		border-radius: 4px;
+	}
+
+	& > button {
+		font-size: 1.1rem;
+		padding: 0.4rem 0.5rem;
+		background-color: #ee4266;
+		border: none;
+		border-radius: 4px;
+		color: whitesmoke;
+	}
+}
+
+.notes-container {
+	margin-top: 50px;
+}
+
+.note-item {
+	& > span {
+		display: inline-block;
+		font-size: 1.2rem;
+		margin: 10px 30px;
+	}
+}

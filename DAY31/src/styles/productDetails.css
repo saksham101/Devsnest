@@ -1,0 +1,59 @@
+.prodcut-container {
+	width: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+	padding: 20px 60px;
+}
+
+.product-image {
+	width: 50%;
+	/* max-width: 300px; */
+}
+
+.product-image > img {
+	object-fit: contain;
+	width: 80%;
+	height: calc(100vh - 130px);
+}
+
+.info-container {
+	width: 50%;
+}
+
+.info-container > .title-header {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.info-container > .price {
+	font-size: 1.9rem;
+	font-weight: 400;
+	margin: 20px 0;
+}
+
+.info-container > .control-button {
+}
+
+.controls {
+	width: 41px;
+	padding: 5px 5px;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid grey;
+}
+
+.control-button > input {
+	text-align: center;
+}
+
+.add-cart-btn {
+	padding: 8px 12px;
+	font-size: 1.2rem;
+	background-color: #1890ff;
+	color: whitesmoke;
+	border: none;
+	cursor: pointer;
+}

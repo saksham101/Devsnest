@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  display: inline;
+}
